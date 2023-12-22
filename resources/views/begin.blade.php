@@ -1,6 +1,6 @@
 @extends('layout.layout')
-@section('contains')
-    <form class="flex-by-center" action="{{route('test.index')}}>
+@section('content')
+    <form class="flex-by-center" action="{{route('test.index')}}>">
         @csrf
         <div style=" margin:20px; padding: 10px;" class="border flex-by-start">
             <div class="flex-by-row-centered" style="width:100%;" >Логин:<input id='checklogin'></div>

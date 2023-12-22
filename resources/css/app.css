@@ -3,7 +3,7 @@ html{
 }
 @font-face {
     font-family: 'VCR';
-    src: url(/better-vcr-5.2.ttf);
+    src: url(../better-vcr-5.2.ttf);
 }
 body{
     color: red;

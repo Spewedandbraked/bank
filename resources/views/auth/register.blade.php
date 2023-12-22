@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card"> 
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
@@ -74,4 +74,15 @@
         </div>
     </div>
 </div>
+<form class="flex-by-center" action="{{route('test.create')}}">
+    @csrf
+    <div style=" margin:20px; padding: 10px;" class="border flex-by-start">
+        <div class="flex-by-row-centered" style="width:100%;">Новый логин:<input id='newlogin'></div>
+        <div class="flex-by-row-centered" style="width:100%;">Пароль:
+            <input id='newpass' type="password"></div>
+        <div id ='newpass2' class="flex-by-row-centered" style="width:100%;">Повторите пароль:
+            <input type="password"></div>    
+        <input  type="submit" value="Зарегистрироваться" onclick="{{ __('Register') }}">
+    </div>
+</form>
 @endsection
