@@ -1,13 +1,12 @@
 @extends('layout.layout')
 @section('content')
-<form class="flex-by-center" action="{{route('register.show')}}>
-    @csrf
+{{-- <form class="flex-by-center" action="{{route('register.show')}}>
     <div style=" margin:20px; padding: 10px;" class="border flex-by-start">
         <div class="flex-by-row-centered" style="width:100%;" >Логин:<input id='checklogin'></div>
         <div class="flex-by-row-centered" style="width:100%;" >Пароль:<input id='checkpass' type="password"></div>
         <input  type="button" value="Войти" onclick="doshitplease">
     </div>
-</form>
+</form> --}}
 
 
 
