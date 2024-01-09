@@ -7,6 +7,6 @@
             <a href="{{route('index')}}">На</a>
             <a href="{{route('test.index')}}">Меню регистрации</a>
         </header>
-        @yield('contains')
+        @yield('content')
     </body>
 </html>
